@@ -11,7 +11,7 @@ A modern and responsive landing page for a fictional digital agency built using 
 
 ## 📸 Screenshot
 
-![Website Screenshot](./img/screenshot1)
+![Website Screenshot](./img/screenShot1)
 ![Website Screenshot](./img/screenshot2)
 ![Website Screenshot](./img/screenshot3)
 ![Website Screenshot](./img/screenshot4)
