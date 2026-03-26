@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Prodesk IT Digital Agency</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <div class="navbar">
+    <div class="logo"><img id="logo" src="img/logo.png" alt=""></div>
+
+    <div class="hamburger" onclick="toggleMenu()">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+
+    <div class="nav-links" id="navLinks">
+      <a href="#">Home</a>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#contact">Contact</a>
+      <button class="toggle-btn" onclick="toggleMode()">🌙</button>
+    </div>
+  </div>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h1>We Build Digital Experiences</h1>
+    <p>Grow your business with our digital solutions</p>
+    <button class="btn">Get Started</button>
+  </section>
+
+  <!-- Services -->
+  <section class="services" id="services">
+    <h2>Our Services</h2>
+    <div class="service-container">
+      <div class="card">
+        <img id="cardpic" src="img/card1.jpg" alt="">
+        <h3>lorem</h3>
+        <p>Lorem, ipsum dolor.</p>
+      </div>
+      <div  class="card">
+        <img id="cardpic" src="img/card3.jpg" alt="">
+        <h3>lorem</h3>
+        <p>lorem lorem lorem</p>
+      </div>
+      <div class="card">
+        <img id="cardpic" src="img/card4.jpg" alt="">
+        <h3>lorem</h3>
+        <p>lorem lorem lorem</p>
+      </div>
+      <div class="card">
+        <img id="cardpic" src="img/card5.jpg" alt="">
+        <h3>lorem</h3>
+        <p>lorem lorem lorem</p>
+      </div>
+      <div class="card">
+        <img id="cardpic" src="img/card6.jpg" alt="">
+        <h3>lorem</h3>
+        <p>lorem lorem lorem</p>
+      </div>
+      <div class="card">
+        <img id="cardpic" src="img/card7.jpg" alt="">
+        <h3>lorem</h3>
+        <p>lorem lorem lorem</p>
+      </div>
+      <div class="card">
+        <img id="cardpic" src="img/card8.jpg" alt="">
+        <h3>lorem</h3>
+        <p>lorem lorem lorem</p>
+      </div>
+      <div class="card">
+        <img id="cardpic" src="img/card9.jpg" alt="">
+        <h3>lorem</h3>
+        <p>lorem lorem lorem</p>
+      </div>
+    </div>
+  </section>
+
+  
+  <!-- About Section -->
+  <section class="about" id="about">
+    <div class="about-container">
+      <div class="about-image">
+        <img src="img/logo.png" alt="About Prodesk IT">
+      </div>
+
+      <div class="about-text">
+        <h2>Who We Are</h2>
+        <h3>We Create Digital Solutions That Grow Your Business 🚀</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, animi iste iusto ut maxime cum? Quae at voluptatum optio saepe nesciunt officiis quidem repellendus corrupti?
+        </p>
+
+        <div class="about-points">
+          <div>✔ 100+ Projects Delivered</div>
+          <div>✔ Expert Team</div>
+          <div>✔ Client Satisfaction Focus</div>
+        </div>
+
+        <button class="btn">Learn More</button>
+      </div>
+    </div>
+  </section>
+  <!-- Contact Section -->
+  <section class="contact" id="contact">
+    <h2>Contact Us</h2>
+    <div class="contact-container">
+      <form class="contact-form">
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea placeholder="Your Message" rows="5" required></textarea>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2026 Prodesk IT | Follow us on social media</p>
+  </footer>
+
+  <script>
+    function toggleMode() {
+      document.body.classList.toggle("dark");
+    }
+
+    function toggleMenu() {
+      document.getElementById("navLinks").classList.toggle("active");
+    }
+  </script>
+
+</body>
+</html>
