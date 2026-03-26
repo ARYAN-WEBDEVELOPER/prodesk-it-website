@@ -5,13 +5,17 @@ A modern and responsive landing page for a fictional digital agency built using 
 ---
 
 ## 🌐 Live Demo
-👉 https://your-username.github.io/prodesk-it-website/
+👉 https://aryan-webdeveloper.github.io/prodesk-it-website/
 
 ---
 
 ## 📸 Screenshot
 
-![Website Screenshot](./img/screenshot.png)
+![Website Screenshot](./img/screenshot1)
+![Website Screenshot](./img/screenshot2)
+![Website Screenshot](./img/screenshot3)
+![Website Screenshot](./img/screenshot4)
+![Website Screenshot](./img/screenshot5)
 
 ---
 
